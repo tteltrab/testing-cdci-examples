@@ -1,0 +1,9 @@
+<h2>Activity: Travis CI Setup</h2>
+
+<p>We're going to use <a href="https://github.com/tteltrab/testing-demo">my testing demo repo</a> as a starting point.</p>
+<ul>
+  <li>Create a personal access token. <a href="https://github.com/settings/tokens">Github Token Settings</a></li>
+  <li>Copy that token, and then go to the <a href="https://travis-ci.org/tteltrab/testing-demo/settings">Travis CI build settings.</a></li>
+  <li>Create an environment variable with the key <code>GH_TOKEN</code> whose value is the token you just copied. This allows Travis to do the push to the branch to the <code>gh-pages</code> branch every time the build passes.</li>
+  <li>On <a href="https://github.com/tteltrab/testing-demo/blob/master/.deploy.sh#L14">line 14 of the deploy script</a> change the email to your github email.</li>
+</ul>
