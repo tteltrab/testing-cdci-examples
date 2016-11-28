@@ -1,18 +1,8 @@
 # testing-cdci-examples
 
-```
-               ,.-----__
-            ,:::://///,:::-.
-          /:''/////// ``:::`;/|/     .-----.
-         /'   ||||||     :://'`\     | Hi! |
-        .' ,   ||||||     `/(  e \   /-----'
-  -===~__-'\__X_`````\_____/~`-._ `.
-              ~~        ~~       `~-'
-```
+A set of examples and slides for an intro in to CD/CI with Node.
 
-Welcome to your new awesome [Armadillo](https://github.com/Snugug/gulp-armadillo) powered website! For more in-depth documentation, check out its website.
-
-All of the Armadillo's [Basic Commands](https://github.com/Snugug/gulp-armadillo#basic-armadillo-commands) can be run by prepending `npm run` to them if you don't have Gulp globally installed, so if you wanted to run your Armadillo's development command, you can run `npm run gulp`.
+The slides for this repo are powered by [Armadillo](https://github.com/Snugug/gulp-armadillo).
 
 ## Deploying to GitHub Pages
 
